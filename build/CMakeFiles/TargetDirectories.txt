@@ -1,0 +1,5 @@
+/home/jay/Desktop/cmake_example_project/build/CMakeFiles/rebuild_cache.dir
+/home/jay/Desktop/cmake_example_project/build/CMakeFiles/edit_cache.dir
+/home/jay/Desktop/cmake_example_project/build/CMakeFiles/package_source.dir
+/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMAKE_TEST_PROJECT_MAIN.dir
+/home/jay/Desktop/cmake_example_project/build/CMakeFiles/package.dir

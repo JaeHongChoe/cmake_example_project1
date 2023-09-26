@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/jay/Desktop/cmake_example_project/build",
+  "command": "/usr/bin/clang++-17    -g   -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/CMAKE_TEST_PROJECT_MAIN.dir/main.cpp.o -c /home/jay/Desktop/cmake_example_project/main.cpp",
+  "file": "/home/jay/Desktop/cmake_example_project/main.cpp"
+}
+]
