@@ -6,6 +6,8 @@ auto main() -> int32_t {
     std::cout << "Example code for C++!" << std::endl;
 
     std::cout << "Example code for C++ lalalala!" << std::endl;
+    std::cout << "Example code for C++ lalalala!" << std::endl;
+    std::cout << "Example code for C++ lalalala!" << std::endl;
     return 0;
 
 }
