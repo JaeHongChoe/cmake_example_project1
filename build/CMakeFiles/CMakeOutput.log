@@ -1,4 +1,17 @@
 The system is: Linux - 4.15.0-156-generic - aarch64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/clang-17 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/jay/Desktop/cmake_example_project/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/clang++-17 
 Build flags: 
@@ -12,31 +25,31 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 The CXX compiler identification is Clang, found in "/home/jay/Desktop/cmake_example_project/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
-Determining if the CXX compiler works passed with the following output:
+Determining if the C compiler works passed with the following output:
 Change Dir: /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f8cf5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f8cf5.dir/build.make CMakeFiles/cmTC_f8cf5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_600f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_600f4.dir/build.make CMakeFiles/cmTC_600f4.dir/build
 make[1]: Entering directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f8cf5.dir/testCXXCompiler.cxx.o
-/usr/bin/clang++-17     -o CMakeFiles/cmTC_f8cf5.dir/testCXXCompiler.cxx.o -c /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_f8cf5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8cf5.dir/link.txt --verbose=1
-/usr/bin/clang++-17       CMakeFiles/cmTC_f8cf5.dir/testCXXCompiler.cxx.o  -o cmTC_f8cf5 
+Building C object CMakeFiles/cmTC_600f4.dir/testCCompiler.c.o
+/usr/bin/clang-17    -o CMakeFiles/cmTC_600f4.dir/testCCompiler.c.o   -c /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_600f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_600f4.dir/link.txt --verbose=1
+/usr/bin/clang-17      -rdynamic CMakeFiles/cmTC_600f4.dir/testCCompiler.c.o  -o cmTC_600f4 
 make[1]: Leaving directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
 
 
-Detecting CXX compiler ABI info compiled with the following output:
+Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_43010/fast"
-/usr/bin/make -f CMakeFiles/cmTC_43010.dir/build.make CMakeFiles/cmTC_43010.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f3b8e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3b8e.dir/build.make CMakeFiles/cmTC_f3b8e.dir/build
 make[1]: Entering directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_43010.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/clang++-17     -o CMakeFiles/cmTC_43010.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_43010
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43010.dir/link.txt --verbose=1
-/usr/bin/clang++-17      -v CMakeFiles/cmTC_43010.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_43010 
+Building C object CMakeFiles/cmTC_f3b8e.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang-17    -o CMakeFiles/cmTC_f3b8e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f3b8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3b8e.dir/link.txt --verbose=1
+/usr/bin/clang-17     -v -rdynamic CMakeFiles/cmTC_f3b8e.dir/CMakeCCompilerABI.c.o  -o cmTC_f3b8e 
 Ubuntu clang version 17.0.1 (++20230919093133+e19b7dc36bc0-1~exp1~20230919093150.45)
 Target: aarch64-unknown-linux-gnu
 Thread model: posix
@@ -47,22 +60,22 @@ Found candidate GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/8
 Selected GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/7
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -pie -EL -z relro --hash-style=gnu --build-id --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_43010 /usr/lib/aarch64-linux-gnu/Scrt1.o /usr/lib/aarch64-linux-gnu/crti.o /usr/bin/../lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/bin/../lib/gcc/aarch64-linux-gnu/7 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/lib -L/usr/lib CMakeFiles/cmTC_43010.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/aarch64-linux-gnu/crtn.o
+ "/usr/bin/ld" -pie -export-dynamic -EL -z relro --hash-style=gnu --build-id --eh-frame-hdr -m aarch64linux -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_f3b8e /usr/lib/aarch64-linux-gnu/Scrt1.o /usr/lib/aarch64-linux-gnu/crti.o /usr/bin/../lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/bin/../lib/gcc/aarch64-linux-gnu/7 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/lib -L/usr/lib CMakeFiles/cmTC_f3b8e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/aarch64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
 
 
-Parsed CXX implicit link information from above output:
+Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_43010/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_43010.dir/build.make CMakeFiles/cmTC_43010.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f3b8e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f3b8e.dir/build.make CMakeFiles/cmTC_f3b8e.dir/build]
   ignore line: [make[1]: Entering directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_43010.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/clang++-17     -o CMakeFiles/cmTC_43010.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_43010]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43010.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/clang++-17      -v CMakeFiles/cmTC_43010.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_43010 ]
+  ignore line: [Building C object CMakeFiles/cmTC_f3b8e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang-17    -o CMakeFiles/cmTC_f3b8e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f3b8e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3b8e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang-17     -v -rdynamic CMakeFiles/cmTC_f3b8e.dir/CMakeCCompilerABI.c.o  -o cmTC_f3b8e ]
   ignore line: [Ubuntu clang version 17.0.1 (++20230919093133+e19b7dc36bc0-1~exp1~20230919093150.45)]
   ignore line: [Target: aarch64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
@@ -75,9 +88,10 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -pie -EL -z relro --hash-style=gnu --build-id --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_43010 /usr/lib/aarch64-linux-gnu/Scrt1.o /usr/lib/aarch64-linux-gnu/crti.o /usr/bin/../lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/bin/../lib/gcc/aarch64-linux-gnu/7 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/lib -L/usr/lib CMakeFiles/cmTC_43010.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/aarch64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -pie -export-dynamic -EL -z relro --hash-style=gnu --build-id --eh-frame-hdr -m aarch64linux -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_f3b8e /usr/lib/aarch64-linux-gnu/Scrt1.o /usr/lib/aarch64-linux-gnu/crti.o /usr/bin/../lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/bin/../lib/gcc/aarch64-linux-gnu/7 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/lib -L/usr/lib CMakeFiles/cmTC_f3b8e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/aarch64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-pie] ==> ignore
+    arg [-export-dynamic] ==> ignore
     arg [-EL] ==> ignore
     arg [-zrelro] ==> ignore
     arg [--hash-style=gnu] ==> ignore
@@ -85,10 +99,11 @@ Parsed CXX implicit link information from above output:
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
     arg [aarch64linux] ==> ignore
+    arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib/ld-linux-aarch64.so.1] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_43010] ==> ignore
+    arg [cmTC_f3b8e] ==> ignore
     arg [/usr/lib/aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/bin/../lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -97,7 +112,176 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_43010.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f3b8e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/bin/../lib/gcc/aarch64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/aarch64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/7] ==> [/usr/lib/gcc/aarch64-linux-gnu/7]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/7;/lib/aarch64-linux-gnu;/usr/lib/aarch64-linux-gnu;/lib;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65567/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65567.dir/build.make CMakeFiles/cmTC_65567.dir/build
+make[1]: Entering directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65567.dir/feature_tests.c.o
+/usr/bin/clang-17   -std=c11 -o CMakeFiles/cmTC_65567.dir/feature_tests.c.o   -c /home/jay/Desktop/cmake_example_project/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_65567
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65567.dir/link.txt --verbose=1
+/usr/bin/clang-17      -rdynamic CMakeFiles/cmTC_65567.dir/feature_tests.c.o  -o cmTC_65567 
+make[1]: Leaving directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e648/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e648.dir/build.make CMakeFiles/cmTC_3e648.dir/build
+make[1]: Entering directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e648.dir/feature_tests.c.o
+/usr/bin/clang-17   -std=c99 -o CMakeFiles/cmTC_3e648.dir/feature_tests.c.o   -c /home/jay/Desktop/cmake_example_project/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3e648
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e648.dir/link.txt --verbose=1
+/usr/bin/clang-17      -rdynamic CMakeFiles/cmTC_3e648.dir/feature_tests.c.o  -o cmTC_3e648 
+make[1]: Leaving directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ba79/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ba79.dir/build.make CMakeFiles/cmTC_4ba79.dir/build
+make[1]: Entering directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ba79.dir/feature_tests.c.o
+/usr/bin/clang-17   -std=c90 -o CMakeFiles/cmTC_4ba79.dir/feature_tests.c.o   -c /home/jay/Desktop/cmake_example_project/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4ba79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ba79.dir/link.txt --verbose=1
+/usr/bin/clang-17      -rdynamic CMakeFiles/cmTC_4ba79.dir/feature_tests.c.o  -o cmTC_4ba79 
+make[1]: Leaving directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02fe9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02fe9.dir/build.make CMakeFiles/cmTC_02fe9.dir/build
+make[1]: Entering directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_02fe9.dir/testCXXCompiler.cxx.o
+/usr/bin/clang++-17     -o CMakeFiles/cmTC_02fe9.dir/testCXXCompiler.cxx.o -c /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_02fe9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02fe9.dir/link.txt --verbose=1
+/usr/bin/clang++-17       -rdynamic CMakeFiles/cmTC_02fe9.dir/testCXXCompiler.cxx.o  -o cmTC_02fe9 
+make[1]: Leaving directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9415/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9415.dir/build.make CMakeFiles/cmTC_e9415.dir/build
+make[1]: Entering directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e9415.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++-17     -o CMakeFiles/cmTC_e9415.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e9415
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9415.dir/link.txt --verbose=1
+/usr/bin/clang++-17      -v -rdynamic CMakeFiles/cmTC_e9415.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e9415 
+Ubuntu clang version 17.0.1 (++20230919093133+e19b7dc36bc0-1~exp1~20230919093150.45)
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/7
+Found candidate GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/7.5.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/8
+Selected GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/7
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -pie -export-dynamic -EL -z relro --hash-style=gnu --build-id --eh-frame-hdr -m aarch64linux -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_e9415 /usr/lib/aarch64-linux-gnu/Scrt1.o /usr/lib/aarch64-linux-gnu/crti.o /usr/bin/../lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/bin/../lib/gcc/aarch64-linux-gnu/7 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/lib -L/usr/lib CMakeFiles/cmTC_e9415.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/aarch64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e9415/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e9415.dir/build.make CMakeFiles/cmTC_e9415.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e9415.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++-17     -o CMakeFiles/cmTC_e9415.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e9415]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9415.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++-17      -v -rdynamic CMakeFiles/cmTC_e9415.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e9415 ]
+  ignore line: [Ubuntu clang version 17.0.1 (++20230919093133+e19b7dc36bc0-1~exp1~20230919093150.45)]
+  ignore line: [Target: aarch64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/7]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/7.5.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/8]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/aarch64-linux-gnu/7]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -pie -export-dynamic -EL -z relro --hash-style=gnu --build-id --eh-frame-hdr -m aarch64linux -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -o cmTC_e9415 /usr/lib/aarch64-linux-gnu/Scrt1.o /usr/lib/aarch64-linux-gnu/crti.o /usr/bin/../lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/bin/../lib/gcc/aarch64-linux-gnu/7 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/lib -L/usr/lib CMakeFiles/cmTC_e9415.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/aarch64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e9415] ==> ignore
+    arg [/usr/lib/aarch64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/aarch64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/aarch64-linux-gnu/7] ==> dir [/usr/bin/../lib/gcc/aarch64-linux-gnu/7]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_e9415.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -122,14 +306,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d3c22/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d3c22.dir/build.make CMakeFiles/cmTC_d3c22.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0a8c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a8c7.dir/build.make CMakeFiles/cmTC_0a8c7.dir/build
 make[1]: Entering directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d3c22.dir/feature_tests.cxx.o
-/usr/bin/clang++-17    -std=c++1z -o CMakeFiles/cmTC_d3c22.dir/feature_tests.cxx.o -c /home/jay/Desktop/cmake_example_project/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d3c22
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3c22.dir/link.txt --verbose=1
-/usr/bin/clang++-17       CMakeFiles/cmTC_d3c22.dir/feature_tests.cxx.o  -o cmTC_d3c22 
+Building CXX object CMakeFiles/cmTC_0a8c7.dir/feature_tests.cxx.o
+/usr/bin/clang++-17    -std=c++1z -o CMakeFiles/cmTC_0a8c7.dir/feature_tests.cxx.o -c /home/jay/Desktop/cmake_example_project/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0a8c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a8c7.dir/link.txt --verbose=1
+/usr/bin/clang++-17       -rdynamic CMakeFiles/cmTC_0a8c7.dir/feature_tests.cxx.o  -o cmTC_0a8c7 
 make[1]: Leaving directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
 
 
@@ -195,14 +379,14 @@ make[1]: Leaving directory '/home/jay/Desktop/cmake_example_project/build/CMakeF
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_52d05/fast"
-/usr/bin/make -f CMakeFiles/cmTC_52d05.dir/build.make CMakeFiles/cmTC_52d05.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_518d2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_518d2.dir/build.make CMakeFiles/cmTC_518d2.dir/build
 make[1]: Entering directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_52d05.dir/feature_tests.cxx.o
-/usr/bin/clang++-17    -std=c++14 -o CMakeFiles/cmTC_52d05.dir/feature_tests.cxx.o -c /home/jay/Desktop/cmake_example_project/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_52d05
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52d05.dir/link.txt --verbose=1
-/usr/bin/clang++-17       CMakeFiles/cmTC_52d05.dir/feature_tests.cxx.o  -o cmTC_52d05 
+Building CXX object CMakeFiles/cmTC_518d2.dir/feature_tests.cxx.o
+/usr/bin/clang++-17    -std=c++14 -o CMakeFiles/cmTC_518d2.dir/feature_tests.cxx.o -c /home/jay/Desktop/cmake_example_project/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_518d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_518d2.dir/link.txt --verbose=1
+/usr/bin/clang++-17       -rdynamic CMakeFiles/cmTC_518d2.dir/feature_tests.cxx.o  -o cmTC_518d2 
 make[1]: Leaving directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
 
 
@@ -268,14 +452,14 @@ make[1]: Leaving directory '/home/jay/Desktop/cmake_example_project/build/CMakeF
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b40fb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b40fb.dir/build.make CMakeFiles/cmTC_b40fb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_833ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_833ff.dir/build.make CMakeFiles/cmTC_833ff.dir/build
 make[1]: Entering directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b40fb.dir/feature_tests.cxx.o
-/usr/bin/clang++-17    -std=c++11 -o CMakeFiles/cmTC_b40fb.dir/feature_tests.cxx.o -c /home/jay/Desktop/cmake_example_project/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b40fb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b40fb.dir/link.txt --verbose=1
-/usr/bin/clang++-17       CMakeFiles/cmTC_b40fb.dir/feature_tests.cxx.o  -o cmTC_b40fb 
+Building CXX object CMakeFiles/cmTC_833ff.dir/feature_tests.cxx.o
+/usr/bin/clang++-17    -std=c++11 -o CMakeFiles/cmTC_833ff.dir/feature_tests.cxx.o -c /home/jay/Desktop/cmake_example_project/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_833ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_833ff.dir/link.txt --verbose=1
+/usr/bin/clang++-17       -rdynamic CMakeFiles/cmTC_833ff.dir/feature_tests.cxx.o  -o cmTC_833ff 
 make[1]: Leaving directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
 
 
@@ -341,14 +525,14 @@ make[1]: Leaving directory '/home/jay/Desktop/cmake_example_project/build/CMakeF
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bdb87/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bdb87.dir/build.make CMakeFiles/cmTC_bdb87.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_92837/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92837.dir/build.make CMakeFiles/cmTC_92837.dir/build
 make[1]: Entering directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bdb87.dir/feature_tests.cxx.o
-/usr/bin/clang++-17    -std=c++98 -o CMakeFiles/cmTC_bdb87.dir/feature_tests.cxx.o -c /home/jay/Desktop/cmake_example_project/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_bdb87
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdb87.dir/link.txt --verbose=1
-/usr/bin/clang++-17       CMakeFiles/cmTC_bdb87.dir/feature_tests.cxx.o  -o cmTC_bdb87 
+Building CXX object CMakeFiles/cmTC_92837.dir/feature_tests.cxx.o
+/usr/bin/clang++-17    -std=c++98 -o CMakeFiles/cmTC_92837.dir/feature_tests.cxx.o -c /home/jay/Desktop/cmake_example_project/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_92837
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92837.dir/link.txt --verbose=1
+/usr/bin/clang++-17       -rdynamic CMakeFiles/cmTC_92837.dir/feature_tests.cxx.o  -o cmTC_92837 
 make[1]: Leaving directory '/home/jay/Desktop/cmake_example_project/build/CMakeFiles/CMakeTmp'
 
 
